@@ -93,15 +93,6 @@ shot-studio/
 
 ---
 
-## 👀 For recruiters
-
-- **Product** — Camera and film semantics mapped into prompt engineering; templates and voice for fast iteration.
-- **Full-stack** — Next.js API route, env handling, client state, localStorage gallery, 402/billing UX.
-- **Design** — Dark theme, glass panels, motion, onboarding, responsive.
-- **API** — Replicate with seed, quality, and clear errors (e.g. “Add credit” link on 402).
-
----
-
 ## 📄 License
 
 MIT.
