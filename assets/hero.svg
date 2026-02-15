@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0f"/>
+      <stop offset="50%" style="stop-color:#12121c"/>
+      <stop offset="100%" style="stop-color:#0a0a0f"/>
+    </linearGradient>
+    <linearGradient id="orb" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:0"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)"/>
+  <ellipse cx="400" cy="80" rx="200" ry="120" fill="url(#orb)"/>
+  <rect x="40" y="32" width="120" height="24" rx="4" fill="rgba(255,255,255,0.08)"/>
+  <text x="100" y="50" fill="white" font-family="system-ui,sans-serif" font-size="14" font-weight="600" text-anchor="middle">Shot Studio</text>
+  <text x="400" y="200" fill="white" font-family="system-ui,sans-serif" font-size="28" font-weight="700" text-anchor="middle">What would you shoot</text>
+  <text x="400" y="238" fill="white" font-family="system-ui,sans-serif" font-size="28" font-weight="700" text-anchor="middle">with infinite budget?</text>
+  <rect x="200" y="280" width="400" height="48" rx="12" fill="rgba(255,255,255,0.06)" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <text x="400" y="312" fill="rgba(255,255,255,0.5)" font-family="system-ui,sans-serif" font-size="14" text-anchor="middle">Describe the scene you imagine...</text>
+  <rect x="320" y="350" width="160" height="44" rx="12" fill="#f59e0b"/>
+  <text x="400" y="378" fill="#0a0a0f" font-family="system-ui,sans-serif" font-size="14" font-weight="700" text-anchor="middle">GENERATE</text>
+</svg>
